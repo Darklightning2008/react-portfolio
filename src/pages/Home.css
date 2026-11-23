@@ -1,0 +1,128 @@
+.hero,
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.hero {
+  max-width: 1000px;
+  min-height: 65vh;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 4rem;
+}
+.hero-small{
+    color: #94a3b8;
+}
+.hero-name{
+    font-size: 4rem;margin: 0;
+}
+.hero-role{
+        font-size: 1.5rem;color: #38bdf8;
+}
+.hero-text{
+    max-width: 600px;line-height: 1.6;
+}
+.hero-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.6rem;
+  background: #38bdf8;
+  color: #0b0f1a;
+  text-decoration: none;
+  border-radius: 8px;
+  width: fit-content;
+}
+.hero-content {
+  position: relative;
+}
+
+.hero-content::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin-bottom: 1.5rem;
+  background: #38bdf8;
+  border-radius: 4px;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-image-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border: 2px solid #38bdf8;
+  border-radius: 20px;
+  transform: rotate(8deg);
+  z-index: -1;
+}
+
+.hero-image {
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid #38bdf8;
+}
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  border-top: 1px solid #263244;
+}
+
+.about h2 {
+  color: #f1f5f9;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 850px;
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.skills{
+    display:flex;flex-wrap: wrap;gap: 0.8rem;
+}
+.skills span{
+    padding:0.4rem 1rem;border: 1px solid #38bdf8;border-radius: 999px;color:#38bdf8
+}
+@media (max-width: 700px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 4rem;
+    text-align: center;
+  }
+
+  .hero-content::before {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-image-wrapper {
+    order: -1;
+  }
+
+  .hero-image {
+    width: 220px;
+    height: 280px;
+  }
+
+  .hero-role {
+    font-size: 1.2rem;
+  }
+}
