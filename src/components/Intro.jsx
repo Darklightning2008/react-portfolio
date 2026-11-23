@@ -14,7 +14,7 @@ function Intro({onFinish}) {
       <motion.p
       initial ={{opacity: 0}}
       animate ={{opacity: 1}}
-      transition={{duration: 1, delay: 0.5}}>I'm Deepak. I study how aircraft fly and build the software around them.</motion.p>
+      transition={{duration: 1, delay: 0.5}}>I'm Deepak. An Aeronautical Engineering Student with a huge interset in Computer Science</motion.p>
    <Button
   variant="contained"
   onClick={onFinish}
