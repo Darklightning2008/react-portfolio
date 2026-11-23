@@ -18,12 +18,12 @@ function Home() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1,delay:0.3}}
-        className='hero-role'>Aeronautical Engineering Student & Tech Enthusiast</motion.h2>
+        className='hero-role'>Aeronautical Engineering Student | Software Enthusiast</motion.h2>
         <motion.p
         initial={{opacity: 0, y:40}}
         animate={{opacity: 1, y: 0}}
         transition={{ duration: 1,delay:0.6 }}
-        className='hero-text'>Here is a short and sweet introduction to my portfolio, Where you can find my projects, certificates, and the journey behind them.
+        className='hero-text'>Welcome to my portfolio, where I share my projects, certifications, and journey as an aeronautical engineering student exploring software and technology. 
         </motion.p>
         <MotionLink to="/contact" 
         initial={{ opacity: 0, y: 40 }}
@@ -41,7 +41,7 @@ function Home() {
     </section>
 <section className='about'>
     <h2>About me </h2>
-    <p>I'm a passionate aeronautical engineering student with a keen interest in aviation and technology. I love exploring the intricacies of flight and the software that powers it. My journey in this field has been driven by curiosity and a desire to contribute to the world of aerospace. Other than this I have a huge interest in the field of Computer science as well.</p>
+    <p>I am an aeronautical engineering student with a strong interest in aviation, software development, and emerging technologies. I enjoy understanding how systems work, building practical applications, and continuously learning new tools. My goal is to combine my engineering background with computer science to create useful and meaningful solutions.</p>
 <div className='skills'>
     <span>React</span>
     <span>Python</span>
