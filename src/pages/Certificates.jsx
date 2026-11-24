@@ -34,7 +34,9 @@ function Certificates() {
           <span>CSS</span>
           <span>MongoDB</span>
           <span>SQL</span>
-          <span>Python-MongoDB Integration</span>
+            <span>Firebase</span>
+            <span>JavaScript</span>
+            <span>Python-MySQL-connection</span>
           <span>REST APIs</span>
           <span>React.js</span>
         </div>
